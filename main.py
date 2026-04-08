@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load dataset
-data = pd.read_csv("fake_job_postings.csv")
+data = pd.read_csv("fake_job_postings (1).csv")
 
 print("Shape:", data.shape)
 print(data.head())
